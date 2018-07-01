@@ -19,3 +19,5 @@ centos 系统安装 Curl 方法: yum update -y && yum install curl -y
 注意事项：如果你是 CentOS 7 系统，此脚本会关闭 firewalld 并且使用 iptables
 备注：安装完成后，输入 v2ray 即可管理 V2Ray
 如果提示你的系统不支持此脚本，那么请尝试更换系统
+#安装ssr
+wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
